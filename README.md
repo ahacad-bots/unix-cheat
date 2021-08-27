@@ -1,5 +1,12 @@
 
 
+### delete all executables
+
+```bash
+find . -maxdepth 1 -type f -executable -exec rm {} +
+# or 
+find . -maxdepth 1 -type f -executable -delete
+```
 
 ### copy big file
 
